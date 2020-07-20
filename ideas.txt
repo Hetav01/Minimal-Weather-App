@@ -1,0 +1,19 @@
+Transperent Nav bar kinda thing with logo and heading on the left alignment.
+
+background image dark and moody and blurred completely. (easy)
+
+floating one big tile.
+
+RULE: NO USE OF RELATIVE POSITIONING IN CSS.
+
+in that, 
+
+this will be flexed to the center and then it will be then customised div by div.
+{
+    top left: time(24hr) and date(full with the whole date month and year.). //this will be a seperate JS file.
+    top right: Temperature in the form (DEG)°C.
+    bottom: name of the city and the country.
+            wind speed and degrees. 
+            sunrise and sunset. (positioning will be flexed and spaced - evenly).
+}
+

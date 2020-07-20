@@ -32,7 +32,8 @@ body{
 .title{
     margin-left: 14px;
     margin-top: 7px;
-    color: rgb(223, 223, 223);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
     font-size: 3.4rem;
     font-family: 'Montserrat', sans-serif;
 }

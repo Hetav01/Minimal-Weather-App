@@ -7,14 +7,14 @@ function getTime() {
 
     var session = "AM";
 
-    if (hours === 0) {
+    /*if (hours === 0) {
         hours = 12;
     }
 
     if (hours > 12) {
         session = "PM";
         hours = hours - 12;
-    }
+    }*/
 
     if (hours < 10) {            //for writing the numbers smaller than 10.
         hours = "0" + hours;
@@ -26,7 +26,7 @@ function getTime() {
         seconds = "0" + seconds;
     }
 
-    let time = hours + ":" + minutes + ":" + seconds + " " + session;
+    let time = hours + ":" + minutes + ":" + seconds + " ";
 
     document.querySelector(".clockOut").innerText = time;
     document.querySelector(".clockOut").textContent = time;

@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-body{
+
+body {
     background-image: url(./PSX_20200720_182028.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.topBar{
+.topBar {
     display: flex;
     justify-content: left;
     margin-bottom: 2%;
@@ -24,12 +24,12 @@ body{
     margin-top: 15px;
 }
 
-.logo{
+.logo {
     width: 90px;
     height: 70px;
 }
 
-.title{
+.title {
     margin-left: 14px;
     margin-top: 7px;
     color: rgb(255, 255, 255);
@@ -38,11 +38,25 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.mainTile{
+.mainTile {
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-top: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: black 2px solid;
+    border-radius: 25px;
 }
 
-.search{
+.search {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +64,7 @@ body{
     width: 100%;
 }
 
-.cityName{
+.cityName {
     padding-top: 17px;
     padding-bottom: 17px;
     padding-left: 20px;
@@ -66,11 +80,11 @@ body{
     transition: all 0.15s ease-in-out;
 }
 
-.cityName:hover{
+.cityName:hover {
     transform: scale(1.1);
 }
 
-.submit{
+.submit {
     margin-left: 3%;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -87,10 +101,61 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.submit:hover{
+.submit:hover {
     color: white;
     background-color: rgb(230, 163, 39);
     transform: scale(1.1);
 }
 
+.upperHalf {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
 
+.time {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tempPlace {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.lowerHalf {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.windSpeed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.sun {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}

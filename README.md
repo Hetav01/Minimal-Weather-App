@@ -1,4 +1,5 @@
 # Minimal-Weather-App
+link: https://hetav01.github.io/Minimal-Weather-App/
 Minimal Weather app made using https://openweathermap.org API.
 
 Logo Made by me :)
